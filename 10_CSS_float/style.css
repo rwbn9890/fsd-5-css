@@ -1,0 +1,37 @@
+*{
+	box-sizing:border-box;
+	
+}
+
+.box1{
+	width:150px;
+	height:150px;
+	background-color:#769655;
+	float:left;
+	
+	font-size:30px;
+	text-align:center;
+	line-height:150px
+}
+
+.box2{
+	width:150px;
+	height:150px;
+	background-color:#eeeed2;
+	float:left;
+	
+		font-size:30px;
+	text-align:center;
+	line-height:150px
+}
+
+.clear{
+	clear:both;
+}
+
+.container{
+	border:20px groove green;
+	height:800px;
+	width:1100px;
+	margin:auto
+}

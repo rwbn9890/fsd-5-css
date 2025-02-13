@@ -1,0 +1,68 @@
+
+
+.box{
+	border:1px solid red;
+	width:100%;
+	height:100vh;
+	
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+		background-attachment:fixed;
+}
+
+.box1{
+	background-image:url("sunset.jpg");
+	
+
+}
+
+.box1 .head{
+	margin-top:500px;
+	color:black 
+}
+
+.box2{
+	background-image:url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg");	
+}
+
+
+.box3{
+	background:url("https://www.arch2o.com/wp-content/uploads/2023/01/Arch2O-whats-the-tallest-skyscraper-in-the-world-heres-a-list-of-the-worlds-30-highest-buildings-scaled.jpg"), #00000087;
+background-blend-mode:overlay	
+}
+
+
+.box4{
+	background-image:url("https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8965/808965-i");	
+}
+
+
+
+.box5{
+	background-image:url("https://images2.alphacoders.com/674/thumb-1920-674260.jpg");	
+}
+
+
+
+
+.box6{
+	background:url("https://static1.srcdn.com/wordpress/wp-content/uploads/2024/02/the-avengers-mcu-poster.jpg"), #00000087;	
+	
+	background-blend-mode:overlay
+}
+
+
+
+
+
+.head{
+	color:white;
+	text-align:center;
+	line-height:400px;
+	
+	font-family:monospace;
+	font-size:70px
+	
+}

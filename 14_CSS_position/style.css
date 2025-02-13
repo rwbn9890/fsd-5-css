@@ -1,0 +1,41 @@
+
+
+p{
+	font-size:40px;
+}
+
+.box{
+	width:200px;
+	height:200px;
+	background-color:lightgreen;
+}
+
+.box1{
+	position:relative;
+	top:100px;
+	left:100px;
+	
+}
+
+
+.box2{
+	position:absolute;
+	bottom:50%;
+	right:50%;
+	z-index:0
+}
+
+
+.box3{
+	position:fixed;
+	bottom:50%;
+	right:30%;
+}
+
+
+.box4{
+	position:sticky;
+	bottom:10px;
+	top:10px;
+}
+

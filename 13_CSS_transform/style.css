@@ -1,0 +1,63 @@
+
+.box{
+	background-color:lightblue;
+	width:200px;
+	height:200px;
+	margin:50px;
+}
+
+/* tranform rotate */;
+.box1{
+	transform:rotate(40deg);
+}
+
+.box2{
+	transform:rotateX(40deg);
+}
+
+.box3{
+	transform:rotateY(40deg);
+}
+
+
+
+/* tranform scale */
+
+.box4{
+	transform:scale(1.2)
+}
+.box5{
+	transform:scaleX(1.2)
+}
+.box6{
+	transform:scaleY(1.2)
+}
+
+
+
+/* tranform translate */
+
+.box7{
+	transform:translateX(50px)
+}
+.box8{
+	transform:translateY(-20px)
+}
+.box9{
+	transform:translate(20px, -30px)
+}
+
+
+
+
+/* tranform skew */
+
+.box10{
+	transform:skewX(30deg)
+}
+.box11{
+	transform:skewY(30deg)
+}
+.box12{
+	transform:skew(15deg, 15deg)
+}
