@@ -103,11 +103,21 @@
     margin-bottom: 32px;
 }
 
-
+.box{
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+.mx-auto{
+    margin: auto;
+}
 
 .p-16{
     padding: 16px;
     
+}
+
+.p-10{
+    padding: 10px;
 }
 
 .p-32{
@@ -123,8 +133,15 @@
 .w-25{
     width: 25%;
 }
+.w-75{
+    width: 75%;
+}
 
 
+
+.h-100{
+    height: 100%;
+}
 
 
 .img-fluid{
