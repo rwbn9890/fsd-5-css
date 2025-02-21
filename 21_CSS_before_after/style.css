@@ -1,0 +1,173 @@
+
+.container{
+    text-align: center;
+    margin-top:50px;
+}
+.btn{
+    padding: 5px 8px;
+    font-weight: 600;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px 1px gainsboro;
+
+   /* transition-property: padding background-color;
+   transition-duration: 0.5s; */
+
+   transition: all 0.5s;
+
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: orange;
+    box-shadow: 0px 0px 4px 1px orange;
+    padding: 5px 15px;
+}
+
+.search:focus{
+    background-color: orange;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    color: rgb(73, 73, 73);
+    transition: all 0.4s;
+}
+
+li::before{
+    content: "🍔";
+}
+li:after{
+    content: "🥪";
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 50%;
+    
+}
+
+li:hover{
+    letter-spacing: 1px;
+    color: black;
+}
+
+
+.btn2{
+    padding: 5px 8px;
+    font-weight: 600;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px 1px gainsboro;
+
+   transition: all 0.5s;
+
+
+}
+
+.btn2:hover{
+    background-color: white;
+    color: green;
+    box-shadow: 0px 0px 4px 1px green;
+    transform: rotateX(180deg);
+}
+
+
+.box{
+  
+  
+    width:200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 2px;
+
+    transition: all 0.4s ease-out;
+
+    position: relative;
+    z-index: 1;
+    display: block;
+
+}
+.box img{
+    border-radius: 20px;
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: right;
+    overflow: hidden;
+}
+.box:hover{
+    transform: translateY(-20px);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+
+.box:before{
+
+    content: " ⭐ 4.2";
+    display: block;
+    background-color: white;
+    padding: 0px 5px;
+    border-radius: 3px;
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100;
+}
+
+
+.box:hover:after{
+    content: " ";
+    display: block;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0.249);
+    padding: 0px 5px;
+    border-radius: 3px;
+width: 100%;
+height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #333;
+  }
+
+
+
+
+
+
+  /* before after */
+
+  .div{
+    width:200px;
+    height: 200px;
+    border: 1px solid green;
+    position: relative;
+  }
+
+  .div:before{
+        content: "🚩";
+        position: absolute;
+        left:0px
+    }
+  .div:after{
+        content: "🚩";
+    }
