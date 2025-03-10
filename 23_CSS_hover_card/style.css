@@ -4,6 +4,76 @@
     box-sizing: border-box;
 }
 
+
+@media(max-width:768px){
+    body{
+        background-color: gray;
+    }
+}
+header{
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.navbar{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+}
+
+@media(max-width:992px)
+{
+    .nav{
+        display: none;
+    }
+}
+
+.nav a{
+    padding: 5px 8px;
+}
+.nav a:hover{
+    background-color: aquamarine;
+    border-radius: 3px;
+    padding: 5px 8px;
+}
+
+.menu-btn button{
+ padding: 3px;
+ font-size: 20px;
+}
+
+
+.menu-btn{
+    display: none;
+}
+
+
+@media(max-width:992px)
+{
+    .menu-btn{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 .container{
     /* border: 1px solid red; */
     max-width: 1320px;
@@ -16,17 +86,70 @@
 }
 .products{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .w-33{
     width: 33.33%;
     padding: 10px;
 }
+
+@media(max-width:992px)
+{
+    .w-33{
+        width: 50%;
+    }
+}
+
+
+@media(max-width:768px){
+    .w-33{
+        width:100%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .w-25{
     width: 25%;
     /* border: 1px solid green; */
     padding: 10px;
 }
+
+@media (max-width:992px){
+    .w-25{
+        width:33.33%
+    }
+}
+
+@media(max-width:768px){
+    .w-25{
+        width: 50%;
+    }
+}
+
+
+@media(max-width:575px){
+    .w-25{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
 .card{
     /* border: 1px solid gray; */
     position: relative;
